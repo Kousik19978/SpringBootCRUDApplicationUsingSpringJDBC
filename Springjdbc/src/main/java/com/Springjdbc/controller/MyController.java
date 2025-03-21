@@ -27,7 +27,7 @@ public class MyController {
 	@GetMapping("/home")
 	public String home() {
 		
-		return "Welcome to My home";		
+		return "Welcome to My home.";		
 	}
 	
 	@GetMapping("/testConnection")
